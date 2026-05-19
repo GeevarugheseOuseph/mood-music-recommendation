@@ -1,0 +1,30 @@
+body {
+
+    font-family: Arial;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+h1 {
+
+    color: darkblue;
+
+}
+
+textarea {
+
+    width: 300px;
+    height: 100px;
+
+}
+
+button {
+
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+
+}
