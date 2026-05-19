@@ -78,7 +78,8 @@ songs = {
     'calm': [
         'Weightless - Marconi Union',
         'ethereal - inertia., Nadav Cohen',
-        'sova - Theo Aabel, after noon'
+        'sova - Theo Aabel, after noon',
+        'Midnight Thoughts - Yasumu'
     ]
 }
 
