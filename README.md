@@ -12,6 +12,7 @@ A Flask-based machine learning web application that detects user emotions from t
 
 ## Technologies Used
 
+- Machine Learning
 - Python
 - Flask
 - Scikit-learn
