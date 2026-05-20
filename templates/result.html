@@ -5,27 +5,41 @@
 
     <title>Result</title>
 
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
 </head>
 
 <body>
 
-    <h1>Detected Emotion: {{ emotion }}</h1>
+    <div class="container">
 
-    <h2>Recommended Songs:</h2>
+        <h1>🎧 Emotion Detected</h1>
 
-    <ul>
+        <div class="result">
 
-        {% for song in songs %}
+            Your mood is:
+            <strong>{{ emotion }}</strong>
 
-        <li>{{ song }}</li>
+        </div>
 
-        {% endfor %}
+        <h2>Recommended Songs</h2>
 
-    </ul>
+        <ul>
 
-    <br>
+            {% for song in songs %}
 
-    <a href="/">Go Back</a>
+            <li>{{ song }}</li>
+
+            {% endfor %}
+
+        </ul>
+
+        <br>
+
+        <a href="/">⬅ Go Back</a>
+
+    </div>
 
 </body>
 

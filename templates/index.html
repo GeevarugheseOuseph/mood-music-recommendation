@@ -4,32 +4,36 @@
 <head>
 
     <title>Mood Music Recommendation</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
 <body>
 
-    <h1>Mood Based Music Recommendation</h1>
+    <div class="container">
 
-    <form action="/predict" method="POST">
+        <h1>🎵 Mood Based Music Recommendation</h1>
 
-        <textarea
-            name="text"
-            rows="5"
-            cols="40"
-            placeholder="Enter your feelings here"
-        ></textarea>
+        <form action="/predict" method="POST">
 
-        <br><br>
+            <textarea
+                name="text"
+                placeholder="How are you feeling today?"
+            ></textarea>
 
-        <button type="submit">
+            <br>
 
-            Detect Mood
+            <button type="submit">
 
-        </button>
+                Detect Mood
 
-    </form>
+            </button>
+
+        </form>
+
+    </div>
 
 </body>
 
